@@ -5,39 +5,51 @@
 			<!-- Left Column: CTA & Visual -->
 			<div class="flex flex-col h-full">
 				<div class="mb-8">
-					<p class="font-mono text-xs text-muted mb-4">Start building</p>
-					<h2 class="text-2xl font-medium mb-4">Towards a programmatic web for AIs</h2>
+					<p class="font-mono text-xs text-muted mb-4">Get started</p>
+					<h2 class="text-2xl font-medium mb-4">Power your platform with sub-second streaming</h2>
 					<p class="text-muted font-light mb-8 text-sm leading-relaxed max-w-md">
-						Parallel is building new interfaces, infrastructure, and business models for AIs to work with the web
+						nanocosmos delivers ultra-low latency live streaming at global scale, trusted by leading iGaming operators and streaming platforms worldwide.
 					</p>
 					<div class="flex gap-3 mb-12">
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							TRY IT FOR FREE
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">P</span>
+							START FREE TRIAL
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" stroke-width="1.5"/>
+							</svg>
 						</button>
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							JOIN US
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">J</span>
+							CONTACT SALES
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" stroke-width="1.5"/>
+							</svg>
 						</button>
 					</div>
 				</div>
 				
-				<!-- Barcode Visual -->
-				<div class="mt-auto w-full h-48 bg-black relative overflow-hidden flex items-center justify-center">
+				<!-- Network Visual -->
+				<div class="mt-auto w-full h-48 bg-gradient-to-br from-primary-950 to-black relative overflow-hidden flex items-center justify-center">
 					{#each Array(100) as _, i}
 						<div 
-							class="h-full bg-white absolute" 
+							class="h-full bg-primary-500/20 absolute" 
 							style="
 								left: {i}%; 
 								width: {Math.random() * 2}%; 
-								opacity: {Math.random()};
+								opacity: {Math.random() * 0.5};
 							"
 						></div>
 					{/each}
 					<div class="absolute inset-0 flex items-center justify-center">
-						<div class="bg-black text-white font-mono text-[10px] px-2 py-1 z-10">
-							parallel.web
+						<div class="bg-black/80 text-white font-mono text-[10px] px-3 py-1.5 z-10 border border-primary-500/30 rounded">
+							nanocosmos.de
 						</div>
+					</div>
+					<!-- Streaming indicators -->
+					<div class="absolute top-4 left-4 flex items-center gap-2">
+						<span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+						<span class="text-white/60 text-[8px] font-mono">1000+ SERVERS</span>
+					</div>
+					<div class="absolute bottom-4 right-4 flex items-center gap-2">
+						<span class="text-primary-300 text-[8px] font-mono">&lt;1s LATENCY</span>
 					</div>
 				</div>
 			</div>
@@ -49,11 +61,11 @@
 				<div class="space-y-12">
 					<!-- Update 1 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 20</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">October 2025</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Extract</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">nanoStream Live Captions v1 Released</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Extract converts web pages into LLM-ready markdown format. It operates in two modes: compressed excerpts (dense, semantically relevant content) and full content extraction (complete page content). The API is designed for AI agents and handles challenging web content including JavaScript-rendered sites and complex PDFs, making it useful for tasks like documentation extraction, research paper processing, and financial filing analysis.
+								Introducing AI-powered real-time captioning for live streams. nanoStream Live Captions v1 provides automatic speech recognition and transcription with sub-second latency, enabling accessibility and enhanced viewer engagement across all streaming platforms. Supports multiple languages and seamless integration with existing nanoStream workflows.
 							</p>
 							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
 						</div>
@@ -61,40 +73,40 @@
 
 					<!-- Update 2 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 15</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">July 2023</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel FindAll</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Wegner Live Partnership Announced</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel's new FindAll API turns natural language queries into custom datasets from the web. It finds entities like companies, people, or locations based on your criteria, then enriches them with structured data—all with citations. FindAll Pro achieves 61% recall, 3x better than competitors.
+								nanocosmos wins Swiss provider Wegner Live as client for live auction streaming services. The partnership brings ultra-low-latency streaming technology to the live auction industry, enabling real-time bidding experiences with sub-second delivery across Europe.
 							</p>
 							<div class="flex gap-2">
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Benchmarks</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Partnership</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Client Win</span>
 							</div>
 						</div>
 					</div>
 
 					<!-- Update 3 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 13</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">February 2025</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Monitor</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">nanoStreamReady Partner Program Launch</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Monitor can be thought of as a web search that's always on: you define a query that kicks off an ongoing stream of updates every time new related information appears on the web.
+								nanocosmos introduces the nanoStreamReady Partner Program to build a network for reliable streaming solutions. The program enables technology partners, system integrators, and service providers to deliver certified ultra-low-latency streaming solutions to their customers worldwide.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Partner Program</span>
 						</div>
 					</div>
 
 					<!-- Update 4 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 12</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">2023</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Parallel raises $100M Series A to build web infrastructure for agents</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">nanocosmos Celebrates 25 Years of Innovation</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel raises $100M Series A at a 740M valuation.
+								Marking over two decades of innovation in video technology, nanocosmos celebrates its 25th anniversary. From pioneering video codec development to becoming a leader in interactive live streaming with proprietary MoQ technology, the company continues to push the boundaries of real-time video delivery.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Fundraise</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Milestone</span>
 						</div>
 					</div>
 				</div>

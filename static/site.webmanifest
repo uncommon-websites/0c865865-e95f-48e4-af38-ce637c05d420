@@ -1,6 +1,7 @@
 {
-	"name": "unc",
-	"short_name": "unc",
+	"name": "nanocosmos",
+	"short_name": "nanocosmos",
+	"description": "Sub-second global video streaming via proprietary MoQ technology",
 	"icons": [
 		{
 			"src": "/web-app-manifest-192x192.png",
@@ -15,5 +16,7 @@
 			"purpose": "maskable"
 		}
 	],
-	"display": "standalone"
+	"display": "standalone",
+	"theme_color": "#623A9E",
+	"background_color": "#ffffff"
 }

@@ -2,27 +2,27 @@
 	<div class="container-custom">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Highest accuracy</h3>
+				<h3 class="font-medium text-sm">Sub-second latency</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Production-ready outputs built on cross-referenced facts, with minimal hallucination.
+					Proprietary MoQ technology delivers ultra-low latency streaming under one second, enabling real-time betting engagement.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Predictable costs</h3>
+				<h3 class="font-medium text-sm">Global infrastructure</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Flex compute budget based on task complexity. Pay per query, not per token.
+					Dedicated CDN with 1,000+ servers worldwide ensures consistent performance across all continents with 24/7 monitoring.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Evidence-based outputs</h3>
+				<h3 class="font-medium text-sm">Seamless integration</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Verifiability and provenance for every atomic output.
+					Bridge WebRTC and RTMP environments with plugin-free browser technology and professional APIs for rapid deployment.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Trusted</h3>
+				<h3 class="font-medium text-sm">Industry proven</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					SOC-II Type 2 Certified, trusted by leading startups and enterprises.
+					25 years of innovation, trusted by leading iGaming operators and streaming platforms worldwide.
 				</p>
 			</div>
 		</div>
@@ -34,22 +34,26 @@
 		<div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
 			<div class="md:col-span-1">
 				<p class="font-mono text-xs text-muted w-3/4">
-					Powering the best AIs using the web
+					Trusted by leading iGaming operators
 				</p>
 			</div>
 			<div class="md:col-span-3 flex flex-wrap items-center justify-between gap-8 grayscale opacity-70 hover:opacity-100 transition-opacity">
-				<!-- Logo Placeholders -->
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-red-500 rounded-sm"></div>
-					floqer
+				<!-- Partner Logos -->
+				<div class="flex items-center gap-2 font-bold text-lg">
+					<div class="w-6 h-6 bg-primary-600 rounded-sm"></div>
+					Highlight Games
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-blue-500 rounded-full"></div>
-					genpact
+				<div class="flex items-center gap-2 font-bold text-lg">
+					<div class="w-6 h-6 bg-primary-700 rounded-sm"></div>
+					BetConstruct
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-pink-500 rounded-full border-2 border-black"></div>
-					Gumloop
+				<div class="flex items-center gap-2 font-bold text-lg">
+					<div class="w-6 h-6 bg-primary-800 rounded-sm"></div>
+					BetGames.TV
+				</div>
+				<div class="flex items-center gap-2 font-bold text-lg">
+					<div class="w-6 h-6 bg-primary-600 rounded-sm"></div>
+					Twain Sport
 				</div>
 			</div>
 		</div>
